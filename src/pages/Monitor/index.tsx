@@ -9,10 +9,13 @@ import {ModelTest} from "@/services/ant-design-pro/api";
 import ModelResult from "@/components/Charts/ModelResult";
 import {BulbOutlined, UnorderedListOutlined, FileTextOutlined, EditOutlined} from '@ant-design/icons';
 import UploadFiles from "@/components/Monitors/UploadFiles";
-
-const {TextArea} = Input;
 import {Image} from 'antd';
+import { createFromIconfontCN } from '@ant-design/icons';
+import ConvasTest from "@/components/Charts/ConvasTest";
 
+const IconFont = createFromIconfontCN({
+  scriptUrl: '//at.alicdn.com/t/c/font_4274327_nsidsj48grl.js',
+});
 /**
  * 每个单独的卡片，为了复用样式抽成了组件
  * @param param0
@@ -69,6 +72,8 @@ const InfoCard: React.FC<{
                     minHeight: '60px'
                 }}
             >
+                {/*<IconFont type="icon-jishui" style={{fontSize:"3rem"}}/>*/}
+                {/*<IconFont type="icon-suijiyonghu" style={{fontSize:"3rem"}}/>*/}
 
                 <Image.PreviewGroup
                     preview={{

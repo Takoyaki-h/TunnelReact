@@ -69,7 +69,7 @@ const Charts: React.FC = () => {
             backgroundPosition: '100% -30%',
             backgroundRepeat: 'no-repeat',
             backgroundSize: '274px auto',
-            backgroundImage:"url(" + require("../../public/icons/yinxing.png") + ")"
+            // backgroundImage:"url(" + require("../../public/icons/yinxing.png") + ")"
               // "rul('https://gw.alipayobjects.com/mdn/rms_a9745b/afts/img/A*BuFmQqsB2iAAAAAAAAAAAAAAARQnAQ')",
           }}
         >

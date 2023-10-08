@@ -57,12 +57,12 @@ export default [
     icon: 'desktop',
     component: './Monitor',
   },
-  //       {
-  //   path: '/bearfaults',
-  //   name: '故障诊断',
-  //   icon: 'desktop',
-  //   component: './BearingFault',
-  // },
+        {
+    path: '/bearfaults',
+    name: '故障诊断',
+    icon: 'desktop',
+    component: './BearingFault',
+  },
   {
     path: '/map',
     name: '地图可视化',
